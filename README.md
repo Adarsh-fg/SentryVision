@@ -23,14 +23,21 @@ The **Flask Security Monitoring App** is a real-time surveillance system using Y
 ## Project Structure
 
 ```
-├── instance/                  # Database and instance files
-├── static/                    # Static files (CSS, JS, images)
+├── instance/                  # SQLite database and other instance-specific files
+├── static/                    # Static files (CSS, JS, images, snapshots)
+│   ├── snapshots/             # Directory for storing detection snapshots
+│   ├── bg.jpg                # Background image for UI
+│   └── alert.mp3             # Sound for alert notifications
 ├── templates/                 # HTML templates for Flask
-├── camera_processor.py       # Camera and YOLO processing
+│   ├── index.html            # Main dashboard
+│   ├── login.html            # Login page
+│   ├── register.html         # Registration page
+│   └── alerts.html           # Standalone alerts page
+├── camera_processor.py       # Handles camera processing and YOLO detection
 ├── config.py                 # Configuration settings
-├── forms.py                  # Authentication forms
+├── forms.py                  # Flask-WTF forms for authentication
 ├── main.py                   # Main Flask application
-├── models.py                 # Database models
+├── models.py                 # SQLAlchemy database models
 ├── requirements.txt          # Python dependencies
 └── README.md                 # This file
 ```
