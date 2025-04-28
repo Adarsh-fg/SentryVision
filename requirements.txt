@@ -1,0 +1,11 @@
+Flask>=2.0.0
+Flask-SQLAlchemy>=3.0.0
+Flask-Login>=0.6.0
+Flask-WTF>=1.0.0
+Flask-Migrate>=4.0.0
+Werkzeug>=2.0.0
+WTForms>=3.0.0
+opencv-python>=4.5.5
+ultralytics>=8.0.0
+paho-mqtt>=1.6.1
+python-dotenv>=1.0.0
