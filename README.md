@@ -48,14 +48,14 @@ The **Flask Security Monitoring App** is a real-time surveillance system using Y
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/flask-security-monitoring.git
+   git clone https://github.com/Adarsh-fg/flask-security-monitoring.git
    cd flask-security-monitoring
    ```
 
 2. **Set Up a Virtual Environment**:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv\Scripts\activate
    ```
 
 3. **Install Dependencies**:
