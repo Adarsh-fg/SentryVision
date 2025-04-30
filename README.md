@@ -48,7 +48,7 @@ The **Flask Security Monitoring App** is a real-time surveillance system using Y
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Adarsh-fg/flask-security-monitoring.git
+   git clone https://github.com/Adarsh-fg/SentryVision.git
    cd flask-security-monitoring
    ```
 
